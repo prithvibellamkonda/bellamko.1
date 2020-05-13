@@ -25,7 +25,7 @@ queue head is a directory, all it's contents are added to the end of the queue,
 and queue is dequeued, freeing the previoous queue head, therefore at the end
 of the algotithm all memory resourses are freed.
 
-#Changes and Improvements
+#Changes and Improvements :
 In the beginning, I used fixed sized array to implement and that's why not all directories were printing in cases as the number of paths on the stack exceeds the size of the array.
 Segfault was inevitable since it was exceeding element out of array's bound. ( lot of memory to use but how foolish of me lol ). 
 However, I tried to fix it but I felt that it's better if I start over again instead of fixing old one since I found more and more errors on the go.
